@@ -1,0 +1,23 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.list li {
+    list-style: none;
+}
+.remove_btn{
+    padding: 7px 0 7px 0;
+    background-color: rgb(80, 6, 6);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+    height: auto;
+}
+.remove_btn:hover{
+    background-color: rgb(255, 0, 0);
+    color: black;
+
+}
